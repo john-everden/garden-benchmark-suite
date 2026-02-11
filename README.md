@@ -26,10 +26,11 @@ Same model, same parameters, same prompts.
 ## How To Run
 
 1. Choose a model
-2. Run prompts in `/prompts/dataset_v1.md`
-3. Record results using `/templates/results_template.md`
-4. Publish results in `/runs/`
-5. Compare using `/analysis/results_table_template.md`
+2. Run prompts in `/PROMPTS/TEST_SUITE_{VERSION}`
+3. Record results using `/TEMPLATES/RUN.md`
+4. Publish results in `/RUNS/{MODEL_NAME}{VERSION}{TEST-SUITE}.md`
+5. Run Score Runs.py
+
 
 ## Scientific Position
 
