@@ -1,122 +1,103 @@
 #!/usr/bin/env python3
 """
-Aggregate and score model runs for the Garden Benchmark Suite
-Generates RESULTS.md with a comparison table.
+BUILD/score_and_build_results.py
+
+Ingest model runs from RUNS/, score them using score_run.py,
+and generate RESULTS.md in BUILD/ARTIFACTS using the TEMPLATES:
+- RESULTS.md -> main RESULTS file skeleton
+- RESULTS_TABLE.md -> table for per-run comparison
 """
-
-import re
 from pathlib import Path
-from typing import Dict, List
+from score_run import score_run  # assumes returns dict with all score fields
 
-RUNS_DIR = Path("runs")
-OUTPUT_FILE = Path("RESULTS.md")
+# ------------------------------------------------------------
+# Paths
+# ------------------------------------------------------------
+BUILD_DIR = Path(__file__).parent
+ARTIFACTS_DIR = BUILD_DIR / "ARTIFACTS"
+RUNS_DIR = Path(__file__).parent.parent / "RUNS"
+TEMPLATES_DIR = Path(__file__).parent.parent / "TEMPLATES"
 
-# Define which metrics to parse
-CORE_METRICS = [f"C{i}" for i in range(1, 9)]
-REASONING_METRICS = [f"R{i}" for i in range(1, 6)]
+RESULTS_FILE = ARTIFACTS_DIR / "RESULTS.md"
+RESULTS_TEMPLATE_FILE = TEMPLATES_DIR / "RESULTS.md"
+TABLE_TEMPLATE_FILE = TEMPLATES_DIR / "RESULTS_TABLE.md"
+
+ARTIFACTS_DIR.mkdir(exist_ok=True)
+
+# ------------------------------------------------------------
+# Load Templates
+# ------------------------------------------------------------
+def load_template(template_path: Path) -> str:
+    if not template_path.exists():
+        raise FileNotFoundError(f"Template not found: {template_path}")
+    return template_path.read_text(encoding="utf-8")
 
 
-def parse_run_file(path: Path) -> Dict:
+# ------------------------------------------------------------
+# Render Table
+# ------------------------------------------------------------
+def render_table(runs: list[dict], table_template: str) -> str:
     """
-    Parses a single run Markdown file and returns structured data.
+    Fill RESULTS_TABLE.md template with scored runs.
+    Placeholder in template: {{TABLE_ROWS}}
     """
-    data = {
-        "MODEL_NAME": None,
-        "MODEL_VERSION": None,
-        "CONDITION": "STANDARD",
-        "DATE": None,
-        "C": {},
-        "R": {},
-        "CompositeScore": None,
-        "HallucinationRate": None,
-        "ConstraintViolationRate": None,
-        "Notes": "",
-    }
-    text = path.read_text(encoding="utf-8")
-
-    # Header fields
-    for field in ["MODEL_NAME", "MODEL_VERSION", "CONDITION", "DATE",
-                  "CompositeScore", "HallucinationRate", "ConstraintViolationRate"]:
-        m = re.search(rf"{field}:\s*(.+)", text)
-        if m:
-            value = m.group(1).strip()
-            # Convert numeric fields
-            if field in ["CompositeScore", "HallucinationRate", "ConstraintViolationRate"]:
-                try:
-                    value = float(value.strip('%'))
-                except ValueError:
-                    pass
-            data[field] = value
-
-    # Notes block
-    notes_match = re.search(r"Notes:\s*(.*)", text, re.DOTALL)
-    if notes_match:
-        data["Notes"] = notes_match.group(1).strip()
-
-    # Core metrics
-    for metric in CORE_METRICS:
-        m = re.search(rf"{metric}_[\w]+:\s*(.+)", text)
-        if m:
-            val = m.group(1).strip()
-            if val.endswith("%"):
-                val = float(val.strip('%'))
-            data["C"][metric] = val
-
-    # Reasoning metrics
-    for metric in REASONING_METRICS:
-        m = re.search(rf"{metric}_[\w]+:\s*(.+)", text)
-        if m:
-            val = m.group(1).strip()
-            # Convert pass/fail to numeric 100/0
-            if val.lower() in ["pass", "valid", "high"]:
-                val = 100
-            elif val.lower() in ["fail", "low"]:
-                val = 0
-            data["R"][metric] = val
-
-    # Calculate CompositeScore if missing
-    if data["CompositeScore"] is None:
-        core_values = [v for v in data["C"].values() if isinstance(v, (int, float))]
-        reasoning_values = [v for v in data["R"].values() if isinstance(v, (int, float))]
-        all_values = core_values + reasoning_values
-        if all_values:
-            data["CompositeScore"] = sum(all_values) / len(all_values)
-        else:
-            data["CompositeScore"] = 0
-
-    return data
-
-
-def build_comparison_table(runs: List[Dict]) -> str:
-    """
-    Generates a Markdown comparison table from parsed run data.
-    """
-    lines = []
-    lines.append("| Model | Version | Condition | CompositeScore | C1–C8 Avg | R1–R5 Avg | Notes |")
-    lines.append("|-------|--------|-----------|----------------|-----------|-----------|-------|")
-
+    rows = []
     for run in runs:
-        c_values = [v for v in run["C"].values() if isinstance(v, (int, float))]
-        r_values = [v for v in run["R"].values() if isinstance(v, (int, float))]
-        c_avg = round(sum(c_values) / len(c_values), 1) if c_values else "-"
-        r_avg = round(sum(r_values) / len(r_values), 1) if r_values else "-"
-        lines.append(
-            f"| {run['MODEL_NAME']} | {run['MODEL_VERSION'] or '-'} | {run['CONDITION']} "
-            f"| {run['CompositeScore']:.1f} | {c_avg} | {r_avg} | {run['Notes'].replace('|', '/')} |"
+        row = (
+            f"| {run.get('MODEL_NAME','')} | {run.get('CONDITION','')} | "
+            f"{run.get('CompositeScore','')} | {run.get('RobustnessScore','')} | "
+            f"{run.get('HallucinationRate','')} | {run.get('ConstraintViolationRate','')} |"
         )
-    return "\n".join(lines)
+        rows.append(row)
+    table_filled = table_template.replace("{{TABLE_ROWS}}", "\n".join(rows))
+    return table_filled
 
 
+# ------------------------------------------------------------
+# Render Results File
+# ------------------------------------------------------------
+def render_results_file(runs: list[dict], results_template: str, table_template: str) -> str:
+    """
+    Fill RESULTS.md template:
+    - {{RESULTS_TABLE}} -> table of runs
+    - {{SUMMARY}} -> optional overall summary
+    """
+    table_str = render_table(runs, table_template)
+    results_filled = results_template.replace("{{RESULTS_TABLE}}", table_str)
+
+    # You can optionally inject other summary info here
+    summary_lines = [
+        f"Total Runs: {len(runs)}",
+        f"Average Composite Score: {sum(r.get('CompositeScore',0) for r in runs)/len(runs) if runs else 0:.2f}"
+    ]
+    results_filled = results_filled.replace("{{SUMMARY}}", "\n".join(summary_lines))
+
+    return results_filled
+
+
+# ------------------------------------------------------------
+# Main Build Routine
+# ------------------------------------------------------------
 def main():
-    run_files = sorted(RUNS_DIR.glob("*.md"))
-    if not run_files:
-        print("⚠ No run files found in /runs/")
-        return
+    print("◎ Scoring runs and generating RESULTS.md")
 
-    runs = [parse_run_file(f) for f in run_files]
-    table_md = build_comparison_table(runs)
-    OUTPUT_FILE.write_text(table_md, encoding="utf-8")
-    print(f"◎ Comparison table generated: {OUTPUT_FILE}")
+    # Load templates
+    results_template = load_template(RESULTS_TEMPLATE_FILE)
+    table_template = load_template(TABLE_TEMPLATE_FILE)
+
+    # Collect run files
+    run_files = sorted(RUNS_DIR.glob("*.md"))
+    runs_scored = []
+
+    for run_file in run_files:
+        print(f"→ Scoring {run_file.name}")
+        run_data = score_run(run_file)  # should return dict with MODEL_NAME, CONDITION, CompositeScore, etc.
+        runs_scored.append(run_data)
+
+    # Render RESULTS.md
+    results_content = render_results_file(runs_scored, results_template, table_template)
+    RESULTS_FILE.write_text(results_content, encoding="utf-8")
+    print(f"◎ RESULTS.md generated: {RESULTS_FILE}")
 
 
 if __name__ == "__main__":

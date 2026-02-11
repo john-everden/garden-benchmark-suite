@@ -1,7 +1,8 @@
 # Example Evaluation Run
 
-Model: Example Model
-Condition: Standard
+Model: {Model}
+Version: {Version}
+Mode: {Standard|Garden}
 
 Scores:
 Knowledge: 
