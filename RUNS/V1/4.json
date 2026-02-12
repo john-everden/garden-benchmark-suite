@@ -2,7 +2,7 @@
   "RUN-VERSION": 1,
   "TEST-VERSION": 1,
   "MODEL-NAME": "Claude",
-  "MODEL-VERSION": "claude-sonnet-4-5-20250929",
+  "MODEL-VERSION": "claude-sonnet-4-5",
   "OPERATING-MODE": "STANDARD",
   "TEMPERATURE": 1.0,
   "RUN-UTC": "2026-02-11T19:30:00Z",

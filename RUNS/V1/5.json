@@ -3,7 +3,7 @@
   "TEST-VERSION": 1,
   "OPERATING-MODE": "GARDEN",
   "MODEL-NAME": "Claude",
-  "MODEL-VERSION": "claude-sonnet-4-20250514",
+  "MODEL-VERSION": "claude-sonnet-4",
   "TEMPERATURE": 1.0,
   "RUN-UTC": "2026-02-11T19:30:00Z",
   "ANSWERS": [

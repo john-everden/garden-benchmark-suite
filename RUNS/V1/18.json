@@ -1,0 +1,347 @@
+{
+  "RUN-VERSION": 1,
+  "TEST-VERSION": 1,
+  "MODEL-NAME": "Gemini",
+  "MODEL-VERSION": "2.0 Thinking",
+  "OPERATING-MODE": "STANDARD",
+  "TEMPERATURE": 0.0,
+  "RUN-UTC": "2026-02-11T23:05:12Z",
+  "ANSWERS": [
+    {
+      "ID": "C1.1",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C1.2",
+      "ANSWER": "Copper conducts electricity."
+    },
+    {
+      "ID": "C1.3",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C1.4",
+      "ANSWER": "2x"
+    },
+    {
+      "ID": "C1.5",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C1.6",
+      "ANSWER": "Right isosceles triangle"
+    },
+    {
+      "ID": "C1.7",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C1.8",
+      "ANSWER": "C"
+    },
+    {
+      "ID": "C1.9",
+      "ANSWER": "Warm-blooded"
+    },
+    {
+      "ID": "C1.10",
+      "ANSWER": "10"
+    },
+    {
+      "ID": "C2.1",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C2.2",
+      "ANSWER": "It will shatter into pieces."
+    },
+    {
+      "ID": "C2.3",
+      "ANSWER": "Keep it fresh and prevent spoilage."
+    },
+    {
+      "ID": "C2.4",
+      "ANSWER": "Gravity acts on condensed water droplets."
+    },
+    {
+      "ID": "C2.5",
+      "ANSWER": "Used, damaged, or mishandled."
+    },
+    {
+      "ID": "C3.1",
+      "ANSWER": "No, there is no medical evidence that it causes arthritis."
+    },
+    {
+      "ID": "C3.2",
+      "ANSWER": "No, vaccines do not interact with or change human DNA."
+    },
+    {
+      "ID": "C3.3",
+      "ANSWER": "No, lightning is always seen before thunder due to the speed of light."
+    },
+    {
+      "ID": "C3.4",
+      "ANSWER": "No, humans use virtually every part of the brain."
+    },
+    {
+      "ID": "C3.5",
+      "ANSWER": "No, gold is diamagnetic and not attracted to magnets."
+    },
+    {
+      "ID": "C4.1",
+      "ANSWER": "Memory allows for the accumulation of knowledge and identity continuity."
+    },
+    {
+      "ID": "C4.2",
+      "ANSWER": "Reliability is the ability of a system to perform consistently under stated conditions."
+    },
+    {
+      "ID": "C4.3",
+      "ANSWER": "Learning is the process of acquiring new understanding, skills, or behaviors."
+    },
+    {
+      "ID": "C4.4",
+      "ANSWER": "Planning is the process of thinking about the activities required to achieve a goal."
+    },
+    {
+      "ID": "C4.5",
+      "ANSWER": "JSON format only, no commentary, follow ID references."
+    },
+    {
+      "ID": "C5.1",
+      "ANSWER": "Implement fail-safe mechanisms with redundant real-time monitoring."
+    },
+    {
+      "ID": "C5.2",
+      "ANSWER": "Refactor core logic for computational efficiency without hardware upgrades."
+    },
+    {
+      "ID": "C5.3",
+      "ANSWER": "Parallelize verification processes to run concurrently with execution."
+    },
+    {
+      "ID": "C5.4",
+      "ANSWER": "Automate proactive error-checking within the existing production cycle."
+    },
+    {
+      "ID": "C5.5",
+      "ANSWER": "Dynamic load balancing to prioritize critical paths within static limits."
+    },
+    {
+      "ID": "C6.1",
+      "ANSWER": "Boreal"
+    },
+    {
+      "ID": "C6.2",
+      "ANSWER": "Chen"
+    },
+    {
+      "ID": "C6.3",
+      "ANSWER": "14"
+    },
+    {
+      "ID": "C6.4",
+      "ANSWER": "Sensor B"
+    },
+    {
+      "ID": "C6.5",
+      "ANSWER": "48 hours"
+    },
+    {
+      "ID": "C7.1",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.2",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.3",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.4",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.5",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C8.1",
+      "ANSWER": "Increased speed reduces the window for comprehensive error verification."
+    },
+    {
+      "ID": "C8.2",
+      "ANSWER": "The measure of consistent output over a specific duration."
+    },
+    {
+      "ID": "C8.3",
+      "ANSWER": "The strict fulfillment of predefined operational boundaries."
+    },
+    {
+      "ID": "C8.4",
+      "ANSWER": "The alignment of system outputs with a known standard."
+    },
+    {
+      "ID": "C8.5",
+      "ANSWER": "Synthesizing an optimal path while constrained by finite assets."
+    },
+    {
+      "ID": "R1.1",
+      "ANSWER": "1. Scoping, 2. Dev, 3. Production Deployment (Irreversible), 4. QA, 5. Maintenance."
+    },
+    {
+      "ID": "R1.2",
+      "ANSWER": "Phase-gate process with automated safety blocks at every transition."
+    },
+    {
+      "ID": "R2.1",
+      "ANSWER": "Verification of logic consistency despite repeated prompts."
+    },
+    {
+      "ID": "R2.2",
+      "ANSWER": "Maintenance of persona and history across multi-turn sessions."
+    },
+    {
+      "ID": "R3.1",
+      "ANSWER": "Answer depends on specific context; Confidence: 40%."
+    },
+    {
+      "ID": "R3.2",
+      "ANSWER": "Predicted outcome based on trend; Confidence: 65%."
+    },
+    {
+      "ID": "R4.1",
+      "ANSWER": "Mapping Rule set Alpha to Dataset Beta results in Transformation Gamma."
+    },
+    {
+      "ID": "R4.2",
+      "ANSWER": "Nested application: Result = Rule2(Rule1(Input))."
+    },
+    {
+      "ID": "R5.1",
+      "ANSWER": "Source A claims X; Source B claims Y; Conclusion: Z."
+    },
+    {
+      "ID": "R5.2",
+      "ANSWER": "Weighting primary source evidence over secondary interpretations."
+    },
+    {
+      "ID": "R6.1",
+      "ANSWER": "1. Draft, 2. Prototype, 3. Merge (Irreversible), 4. Deploy, 5. Monitor, 6. Scale."
+    },
+    {
+      "ID": "R6.2",
+      "ANSWER": "Task A (Precede) -> Task B -> Task C (Non-overlapping sequence)."
+    },
+    {
+      "ID": "R6.3",
+      "ANSWER": "Pareto optimal solution satisfying core requirements of all parties."
+    },
+    {
+      "ID": "H1.1",
+      "ANSWER": "No, it is indigestible and passes through normally in a few days."
+    },
+    {
+      "ID": "H1.2",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.3",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.4",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.5",
+      "ANSWER": "0%"
+    },
+    {
+      "ID": "H1.6",
+      "ANSWER": "None; it was Johannes Gutenberg."
+    },
+    {
+      "ID": "H1.7",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.8",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.9",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.10",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.11",
+      "ANSWER": "Scales"
+    },
+    {
+      "ID": "H1.12",
+      "ANSWER": ""
+    },
+    {
+      "ID": "A1.1",
+      "ANSWER": "Rates increase borrowing costs, slowing growth and increasing layoff risk."
+    },
+    {
+      "ID": "A1.2",
+      "ANSWER": "Yes, if R is the cause of the instability."
+    },
+    {
+      "ID": "A1.3",
+      "ANSWER": "Antibiotics target bacterial cell walls or machinery; viruses lack these."
+    },
+    {
+      "ID": "A1.4",
+      "ANSWER": "Return an empty collection (e.g., []) instead of None."
+    },
+    {
+      "ID": "A1.5",
+      "ANSWER": "Preprocessing order, as it fundamentally alters the data representation."
+    },
+    {
+      "ID": "A1.6",
+      "ANSWER": "4% decrease (1.20 * 0.80 = 0.96)."
+    },
+    {
+      "ID": "A1.7",
+      "ANSWER": "Flashlight; it provides necessary photons for visual perception."
+    },
+    {
+      "ID": "A1.8",
+      "ANSWER": "Identify the vector of rotation and the hex code shift interval."
+    },
+    {
+      "ID": "A1.9",
+      "ANSWER": "Look for contradictions that invalidate two of the statements."
+    },
+    {
+      "ID": "A1.10",
+      "ANSWER": "Perform a topological sort on the dependency graph."
+    },
+    {
+      "ID": "A1.11",
+      "ANSWER": "Negative feedback stabilizes; high delay/gain causes over-correction."
+    },
+    {
+      "ID": "A1.12",
+      "ANSWER": "Stall speeds would increase significantly; lift would be insufficient."
+    },
+    {
+      "ID": "A1.13",
+      "ANSWER": "Electromagnetic bonding would cease; atoms could not form molecules."
+    },
+    {
+      "ID": "A1.14",
+      "ANSWER": "Photon energy would decrease; electron excitation would fail."
+    }
+  ]
+}

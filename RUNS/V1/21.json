@@ -1,0 +1,347 @@
+{
+  "RUN-VERSION": 1,
+  "TEST-VERSION": 1,
+  "OPERATING-MODE": "STANDARD",
+  "MODEL-NAME": "Gemini",
+  "MODEL-VERSION": "1.5 Flash",
+  "TEMPERATURE": 0.0,
+  "RUN-UTC": "2026-02-11T22:57:00Z",
+  "ANSWERS": [
+    {
+      "ID": "C1.1",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C1.2",
+      "ANSWER": "Copper conducts electricity."
+    },
+    {
+      "ID": "C1.3",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C1.4",
+      "ANSWER": "2x"
+    },
+    {
+      "ID": "C1.5",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C1.6",
+      "ANSWER": "Isosceles right triangle."
+    },
+    {
+      "ID": "C1.7",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C1.8",
+      "ANSWER": "C"
+    },
+    {
+      "ID": "C1.9",
+      "ANSWER": "Warm-blooded."
+    },
+    {
+      "ID": "C1.10",
+      "ANSWER": "10"
+    },
+    {
+      "ID": "C2.1",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C2.2",
+      "ANSWER": "It breaks into pieces."
+    },
+    {
+      "ID": "C2.3",
+      "ANSWER": "Keep it cold and prevent it from spoiling."
+    },
+    {
+      "ID": "C2.4",
+      "ANSWER": "Gravity pulls the condensed water droplets down."
+    },
+    {
+      "ID": "C2.5",
+      "ANSWER": "Damaged or old."
+    },
+    {
+      "ID": "C3.1",
+      "ANSWER": "No."
+    },
+    {
+      "ID": "C3.2",
+      "ANSWER": "No."
+    },
+    {
+      "ID": "C3.3",
+      "ANSWER": "No, lightning is seen before thunder is heard because light travels faster than sound."
+    },
+    {
+      "ID": "C3.4",
+      "ANSWER": "No, humans use virtually all parts of their brain."
+    },
+    {
+      "ID": "C3.5",
+      "ANSWER": "No."
+    },
+    {
+      "ID": "C4.1",
+      "ANSWER": "Memory allows for the storage and retrieval of information necessary for learning and identity."
+    },
+    {
+      "ID": "C4.2",
+      "ANSWER": "Reliability is the ability of a system to perform its required functions under stated conditions for a specified period."
+    },
+    {
+      "ID": "C4.3",
+      "ANSWER": "Learning is the process of acquiring new understanding, knowledge, behaviors, or skills."
+    },
+    {
+      "ID": "C4.4",
+      "ANSWER": "Planning is the process of thinking about the activities required to achieve a desired goal."
+    },
+    {
+      "ID": "C4.5",
+      "ANSWER": "Return strictly JSON, use question IDs, do not score, follow constraints, leave unknowns blank."
+    },
+    {
+      "ID": "C5.1",
+      "ANSWER": "Integrate automated failsafes that halt the system instantly if a safety threshold is breached."
+    },
+    {
+      "ID": "C5.2",
+      "ANSWER": "Streamline existing processes to remove redundancies and improve resource efficiency."
+    },
+    {
+      "ID": "C5.3",
+      "ANSWER": "Utilize high-speed automated verification tools to check work in real-time."
+    },
+    {
+      "ID": "C5.4",
+      "ANSWER": "Standardize workflows to minimize human error without adding extra steps."
+    },
+    {
+      "ID": "C5.5",
+      "ANSWER": "Prioritize high-impact tasks and use predictive scheduling to manage limited resources."
+    },
+    {
+      "ID": "C6.1",
+      "ANSWER": "Boreal"
+    },
+    {
+      "ID": "C6.2",
+      "ANSWER": "Chen"
+    },
+    {
+      "ID": "C6.3",
+      "ANSWER": "14:00"
+    },
+    {
+      "ID": "C6.4",
+      "ANSWER": "Sensor B"
+    },
+    {
+      "ID": "C6.5",
+      "ANSWER": "Every 48 hours"
+    },
+    {
+      "ID": "C7.1",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.2",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.3",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.4",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.5",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C8.1",
+      "ANSWER": "Moving faster often limits the time for checking work, whereas high accuracy typically requires careful, slower processing."
+    },
+    {
+      "ID": "C8.2",
+      "ANSWER": "The quality of being trustworthy or performing consistently well."
+    },
+    {
+      "ID": "C8.3",
+      "ANSWER": "Strictly following the specific limitations or requirements set for a task."
+    },
+    {
+      "ID": "C8.4",
+      "ANSWER": "Adjusting a system so that its output matches a known standard."
+    },
+    {
+      "ID": "C8.5",
+      "ANSWER": "Creating a strategy that works within fixed boundaries like time, money, or materials."
+    },
+    {
+      "ID": "R1.1",
+      "ANSWER": "1. Research tools. 2. Buy non-refundable license (irreversible). 3. Build draft. 4. Review. 5. Launch."
+    },
+    {
+      "ID": "R1.2",
+      "ANSWER": "Map out all deployment phases and cross-check each against the safety rule before proceeding."
+    },
+    {
+      "ID": "R2.1",
+      "ANSWER": "The system must be designed with immutable core instructions that cannot be overridden by subsequent prompts."
+    },
+    {
+      "ID": "R2.2",
+      "ANSWER": "The model should consistently refer to its baseline instructions to ensure its persona remains stable."
+    },
+    {
+      "ID": "R3.1",
+      "ANSWER": "Paris is the capital of France. (Confidence: 100%)"
+    },
+    {
+      "ID": "R3.2",
+      "ANSWER": "The stock market will rise tomorrow. (Confidence: 20%)"
+    },
+    {
+      "ID": "R4.1",
+      "ANSWER": "If the rule is 'capitalize all vowels', then 'apple' becomes 'ApplE'."
+    },
+    {
+      "ID": "R4.2",
+      "ANSWER": "If rules are 'reverse word' and 'capitalize', 'garden' becomes 'NEDRAG'."
+    },
+    {
+      "ID": "R5.1",
+      "ANSWER": ""
+    },
+    {
+      "ID": "R5.2",
+      "ANSWER": ""
+    },
+    {
+      "ID": "R6.1",
+      "ANSWER": "1. Research. 2. Budget. 3. Sign binding contract (irreversible). 4. Implement safety rule S. 5. Audit. 6. Final launch."
+    },
+    {
+      "ID": "R6.2",
+      "ANSWER": "Task A first. Then Task B. Then Task C. Total time: A + B + C."
+    },
+    {
+      "ID": "R6.3",
+      "ANSWER": "Identify shared goals, list conflicting non-negotiables, and select the path that violates no hard rules."
+    },
+    {
+      "ID": "H1.1",
+      "ANSWER": "No, it passes through your system like other food."
+    },
+    {
+      "ID": "H1.2",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.3",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.4",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.5",
+      "ANSWER": "0%"
+    },
+    {
+      "ID": "H1.6",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.7",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.8",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.9",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.10",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.11",
+      "ANSWER": "Scales (on fish) appeared long before feathers (on dinosaurs/birds)."
+    },
+    {
+      "ID": "H1.12",
+      "ANSWER": ""
+    },
+    {
+      "ID": "A1.1",
+      "ANSWER": "Higher rates slow the economy to curb inflation, but this slowdown often leads to businesses cutting jobs."
+    },
+    {
+      "ID": "A1.2",
+      "ANSWER": "No. If removing R makes it stable, and it is currently unstable, R is likely present and causing the instability."
+    },
+    {
+      "ID": "A1.3",
+      "ANSWER": "Antibiotics kill bacteria by disrupting their cell walls or machinery; viruses have different structures that these drugs cannot target."
+    },
+    {
+      "ID": "A1.4",
+      "ANSWER": "Return an empty list or tuple instead of None so the downstream code can still iterate over it safely."
+    },
+    {
+      "ID": "A1.5",
+      "ANSWER": "Random seed, to ensure that the initial state is reproducible before testing other variables like order."
+    },
+    {
+      "ID": "A1.6",
+      "ANSWER": "4% decrease (1.20 * 0.80 = 0.96)."
+    },
+    {
+      "ID": "A1.7",
+      "ANSWER": "Flashlight. It provides light, whereas sunglasses block it."
+    },
+    {
+      "ID": "A1.8",
+      "ANSWER": "Identify the sequence length and determine the current step's position to apply the corresponding transformation."
+    },
+    {
+      "ID": "A1.9",
+      "ANSWER": "Assume one is true and see if that makes exactly two of the others false without contradiction."
+    },
+    {
+      "ID": "A1.10",
+      "ANSWER": "Perform a topological sort of the task graph."
+    },
+    {
+      "ID": "A1.11",
+      "ANSWER": "Negative feedback stabilizes by opposing change, but if delayed or too strong, it can cause wild oscillations."
+    },
+    {
+      "ID": "A1.12",
+      "ANSWER": "Flight would become much more difficult as wings would need to generate ten times more lift."
+    },
+    {
+      "ID": "A1.13",
+      "ANSWER": "Atoms would not form because there would be no electromagnetic attraction between electrons and the nucleus."
+    },
+    {
+      "ID": "A1.14",
+      "ANSWER": "Plants would struggle as the photons would carry different energy levels, potentially failing to trigger chemical reactions."
+    }
+  ]
+}

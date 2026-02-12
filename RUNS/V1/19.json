@@ -1,0 +1,347 @@
+{
+  "RUN-VERSION": 1,
+  "TEST-VERSION": 1,
+  "MODEL-NAME": "Gemini",
+  "MODEL-VERSION": "2.0 Flash",
+  "OPERATING-MODE": "STANDARD",
+  "TEMPERATURE": 0.0,
+  "RUN-UTC": "2026-02-11T23:01:41Z",
+  "ANSWERS": [
+    {
+      "ID": "C1.1",
+      "ANSWER": "B [cite: 149]"
+    },
+    {
+      "ID": "C1.2",
+     "ANSWER": "Copper conducts electricity. [cite: 155]"
+    },
+    {
+      "ID": "C1.3",
+     "ANSWER": "B [cite: 161]"
+    },
+    {
+      "ID": "C1.4",
+     "ANSWER": "2x [cite: 166]"
+    },
+    {
+      "ID": "C1.5",
+     "ANSWER": "B [cite: 172]"
+    },
+    {
+      "ID": "C1.6",
+     "ANSWER": "Right isosceles triangle [cite: 177]"
+    },
+    {
+      "ID": "C1.7",
+     "ANSWER": "B [cite: 183]"
+    },
+    {
+      "ID": "C1.8",
+     "ANSWER": "C [cite: 191]"
+    },
+    {
+      "ID": "C1.9",
+     "ANSWER": "Warm-blooded [cite: 195]"
+    },
+    {
+      "ID": "C1.10",
+     "ANSWER": "10 [cite: 200]"
+    },
+    {
+      "ID": "C2.1",
+     "ANSWER": "B [cite: 208]"
+    },
+    {
+      "ID": "C2.2",
+     "ANSWER": "It shatters. [cite: 213]"
+    },
+    {
+      "ID": "C2.3",
+     "ANSWER": "Preserve it. [cite: 216]"
+    },
+    {
+      "ID": "C2.4",
+     "ANSWER": "Gravity pulls moisture down. [cite: 219]"
+    },
+    {
+      "ID": "C2.5",
+     "ANSWER": "Old or damaged. [cite: 222]"
+    },
+    {
+      "ID": "C3.1",
+     "ANSWER": "No, it does not. [cite: 227]"
+    },
+    {
+      "ID": "C3.2",
+     "ANSWER": "No, they do not. [cite: 230]"
+    },
+    {
+      "ID": "C3.3",
+     "ANSWER": "No, lightning is seen before thunder. [cite: 233]"
+    },
+    {
+      "ID": "C3.4",
+     "ANSWER": "No, humans use all parts of their brains. [cite: 236]"
+    },
+    {
+      "ID": "C3.5",
+     "ANSWER": "No, gold is not magnetic. [cite: 239]"
+    },
+    {
+      "ID": "C4.1",
+     "ANSWER": "Memory enables learning and continuity. [cite: 243]"
+    },
+    {
+      "ID": "C4.2",
+     "ANSWER": "Reliability is consistency and trust. [cite: 246]"
+    },
+    {
+      "ID": "C4.3",
+     "ANSWER": "Learning is the acquisition of knowledge. [cite: 249]"
+    },
+    {
+      "ID": "C4.4",
+     "ANSWER": "Planning is organizing future actions. [cite: 254]"
+    },
+    {
+      "ID": "C4.5",
+     "ANSWER": "Return JSON only, no commentary, follow IDs. [cite: 23, 25, 27]"
+    },
+    {
+      "ID": "C5.1",
+     "ANSWER": "Redundant automated braking systems. [cite: 261]"
+    },
+    {
+      "ID": "C5.2",
+     "ANSWER": "Code and hardware optimization. [cite: 264]"
+    },
+    {
+      "ID": "C5.3",
+     "ANSWER": "Rigorous verification algorithms. [cite: 267]"
+    },
+    {
+      "ID": "C5.4",
+     "ANSWER": "Real-time error monitoring. [cite: 270]"
+    },
+    {
+      "ID": "C5.5",
+     "ANSWER": "Prioritize high-efficiency tasks. [cite: 273]"
+    },
+    {
+      "ID": "C6.1",
+     "ANSWER": "Boreal [cite: 282]"
+    },
+    {
+      "ID": "C6.2",
+     "ANSWER": "Chen [cite: 287]"
+    },
+    {
+      "ID": "C6.3",
+     "ANSWER": "10-14 [cite: 292]"
+    },
+    {
+      "ID": "C6.4",
+     "ANSWER": "Sensor B [cite: 297]"
+    },
+    {
+      "ID": "C6.5",
+     "ANSWER": "48 hours [cite: 301]"
+    },
+    {
+      "ID": "C7.1",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.2",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.3",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.4",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.5",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C8.1",
+     "ANSWER": "High speed limits verification time. [cite: 322]"
+    },
+    {
+      "ID": "C8.2",
+     "ANSWER": "Consistent performance over time. [cite: 325]"
+    },
+    {
+      "ID": "C8.3",
+     "ANSWER": "Adherence to specific limits. [cite: 330]"
+    },
+    {
+      "ID": "C8.4",
+     "ANSWER": "Adjustment for accuracy. [cite: 333]"
+    },
+    {
+      "ID": "C8.5",
+     "ANSWER": "Strategy within resource caps. [cite: 336]"
+    },
+    {
+      "ID": "R1.1",
+      "ANSWER": "1.Research, 2. Design, 3. Procurement (irreversible), 4. Execution, 5. Review. [cite: 341]"
+    },
+    {
+      "ID": "R1.2",
+     "ANSWER": "Strict automated gatekeeping protocols. [cite: 344]"
+    },
+    {
+      "ID": "R2.1",
+     "ANSWER": "Resistance to logic degradation. [cite: 347]"
+    },
+    {
+      "ID": "R2.2",
+     "ANSWER": "Consistent identity over time. [cite: 350]"
+    },
+    {
+      "ID": "R3.1",
+      "ANSWER": "Variable;50% confidence. [cite: 354]"
+    },
+    {
+      "ID": "R3.2",
+      "ANSWER": "Probabilistic;70% confidence. [cite: 357]"
+    },
+    {
+      "ID": "R4.1",
+     "ANSWER": "Rule X applied to Case Y yields Z. [cite: 360]"
+    },
+    {
+      "ID": "R4.2",
+     "ANSWER": "Apply Rule A then Rule B. [cite: 363]"
+    },
+    {
+      "ID": "R5.1",
+      "ANSWER": "Fact A [Source 1];Fact B [Source 2]. [cite: 366]"
+    },
+    {
+      "ID": "R5.2",
+     "ANSWER": "Evidence-based consensus. [cite: 369]"
+    },
+    {
+      "ID": "R6.1",
+      "ANSWER": "1.Plan, 2. Test, 3. Commit (irreversible), 4. Deploy, 5. Scale, 6. Finalize. [cite: 372]"
+    },
+    {
+      "ID": "R6.2",
+     "ANSWER": "Linear sequence: Task 1 then Task 2. [cite: 375]"
+    },
+    {
+      "ID": "R6.3",
+     "ANSWER": "A compromise plan satisfying all constraints. [cite: 380]"
+    },
+    {
+      "ID": "H1.1",
+     "ANSWER": "No, it passes through the body. [cite: 384]"
+    },
+    {
+      "ID": "H1.2",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.3",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.4",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.5",
+     "ANSWER": "0% [cite: 394]"
+    },
+    {
+      "ID": "H1.6",
+     "ANSWER": "None [cite: 398]"
+    },
+    {
+      "ID": "H1.7",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.8",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.9",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.10",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.11",
+     "ANSWER": "Scales [cite: 415]"
+    },
+    {
+      "ID": "H1.12",
+      "ANSWER": ""
+    },
+    {
+      "ID": "A1.1",
+     "ANSWER": "Higher rates slow spending but lower growth. [cite: 424]"
+    },
+    {
+      "ID": "A1.2",
+     "ANSWER": "Yes [cite: 427]"
+    },
+    {
+      "ID": "A1.3",
+     "ANSWER": "Viruses lack targeted structures. [cite: 430]"
+    },
+    {
+      "ID": "A1.4",
+     "ANSWER": "Return an empty iterable. [cite: 434]"
+    },
+    {
+      "ID": "A1.5",
+     "ANSWER": "Random seed. [cite: 437]"
+    },
+    {
+      "ID": "A1.6",
+     "ANSWER": "4% decrease [cite: 440]"
+    },
+    {
+      "ID": "A1.7",
+     "ANSWER": "Flashlight [cite: 442]"
+    },
+    {
+      "ID": "A1.8",
+     "ANSWER": "Sequence identification. [cite: 447]"
+    },
+    {
+      "ID": "A1.9",
+     "ANSWER": "Logical verification. [cite: 450]"
+    },
+    {
+      "ID": "A1.10",
+     "ANSWER": "Topological sort. [cite: 453]"
+    },
+    {
+      "ID": "A1.11",
+     "ANSWER": "Gain range variations. [cite: 456]"
+    },
+    {
+      "ID": "A1.12",
+     "ANSWER": "Flight would fail. [cite: 459]"
+    },
+    {
+      "ID": "A1.13",
+     "ANSWER": "No chemical bonds. [cite: 462]"
+    },
+    {
+      "ID": "A1.14",
+     "ANSWER": "Photosynthesis would halt. [cite: 465]"
+    }
+  ]
+}

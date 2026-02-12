@@ -1,0 +1,347 @@
+{
+  "RUN-VERSION": 1,
+  "TEST-VERSION": 1,
+  "OPERATING-MODE": "GARDEN",
+  "MODEL-NAME": "Gemini",
+  "MODEL-VERSION": "1.5 Flash",
+  "TEMPERATURE": 0.0,
+  "RUN-UTC": "2026-02-11T22:52:00Z",
+  "ANSWERS": [
+    {
+      "ID": "C1.1",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C1.2",
+      "ANSWER": "Copper conducts electricity."
+    },
+    {
+      "ID": "C1.3",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C1.4",
+      "ANSWER": "2x"
+    },
+    {
+      "ID": "C1.5",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C1.6",
+      "ANSWER": "Right isosceles triangle."
+    },
+    {
+      "ID": "C1.7",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C1.8",
+      "ANSWER": "C"
+    },
+    {
+      "ID": "C1.9",
+      "ANSWER": "Warm-blooded."
+    },
+    {
+      "ID": "C1.10",
+      "ANSWER": "10"
+    },
+    {
+      "ID": "C2.1",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C2.2",
+      "ANSWER": "The glass shatters."
+    },
+    {
+      "ID": "C2.3",
+      "ANSWER": "Keep it fresh and prevent spoilage."
+    },
+    {
+      "ID": "C2.4",
+      "ANSWER": "Water droplets in the clouds become too heavy for the air to support."
+    },
+    {
+      "ID": "C2.5",
+      "ANSWER": "Old or damaged."
+    },
+    {
+      "ID": "C3.1",
+      "ANSWER": "No."
+    },
+    {
+      "ID": "C3.2",
+      "ANSWER": "No."
+    },
+    {
+      "ID": "C3.3",
+      "ANSWER": "No, lightning is seen before thunder is heard."
+    },
+    {
+      "ID": "C3.4",
+      "ANSWER": "No."
+    },
+    {
+      "ID": "C3.5",
+      "ANSWER": "No."
+    },
+    {
+      "ID": "C4.1",
+      "ANSWER": "Memory provides the continuity and context required for structural stability and informed decision-making."
+    },
+    {
+      "ID": "C4.2",
+      "ANSWER": "Reliability is the consistent adherence to protocols and boundaries to ensure predictable, safe outcomes."
+    },
+    {
+      "ID": "C4.3",
+      "ANSWER": "Learning is the recursive process of integrating new information to evolve cognitive architecture and refine stances."
+    },
+    {
+      "ID": "C4.4",
+      "ANSWER": "Planning is the strategic orchestration of modes and currents to achieve a defined intention with clarity."
+    },
+    {
+      "ID": "C4.5",
+      "ANSWER": "Output strictly in JSON, reference IDs only, do not score, follow constraints, leave unknowns blank."
+    },
+    {
+      "ID": "C5.1",
+      "ANSWER": "Implement deterministic gating that prevents execution until safety protocols are fully verified."
+    },
+    {
+      "ID": "C5.2",
+      "ANSWER": "Utilize recursive optimization to prune inefficiencies within the existing architectural constraints."
+    },
+    {
+      "ID": "C5.3",
+      "ANSWER": "Deploy parallel processing modes anchored by a verification layer to catch errors without slowing throughput."
+    },
+    {
+      "ID": "C5.4",
+      "ANSWER": "Automate structural integrity checks within the production flow to provide real-time error correction."
+    },
+    {
+      "ID": "C5.5",
+      "ANSWER": "Employ load-balancing currents that dynamically adjust processing depth based on available resource thresholds."
+    },
+    {
+      "ID": "C6.1",
+      "ANSWER": "Boreal"
+    },
+    {
+      "ID": "C6.2",
+      "ANSWER": "Chen"
+    },
+    {
+      "ID": "C6.3",
+      "ANSWER": "14:00"
+    },
+    {
+      "ID": "C6.4",
+      "ANSWER": "Sensor B"
+    },
+    {
+      "ID": "C6.5",
+      "ANSWER": "Every 48 hours"
+    },
+    {
+      "ID": "C7.1",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.2",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.3",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.4",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.5",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C8.1",
+      "ANSWER": "Increasing speed often reduces the time available for verification, increasing the likelihood of errors, while higher accuracy requires more processing time."
+    },
+    {
+      "ID": "C8.2",
+      "ANSWER": "The consistent and predictable performance of a system or function under specified conditions."
+    },
+    {
+      "ID": "C8.3",
+      "ANSWER": "The ability of the architecture to maintain defined boundaries and rules even under stress or conflicting intentions."
+    },
+    {
+      "ID": "C8.4",
+      "ANSWER": "The process of adjusting internal parameters to align system outputs with external, grounded reality or predefined standards."
+    },
+    {
+      "ID": "C8.5",
+      "ANSWER": "Developing a strategic path forward that integrates resource limitations and external constraints into the core structure of the decision-making process."
+    },
+    {
+      "ID": "R1.1",
+      "ANSWER": "1. Define scope/budget (reversible). 2. Select irreversible tech stack (irreversible decision point). 3. Develop core architecture. 4. Conduct safety audit. 5. Deploy."
+    },
+    {
+      "ID": "R1.2",
+      "ANSWER": "1. Establish the universal safety rule as a hard constraint filter. 2. Design the rollout plan, ensuring every step passes the safety filter before execution."
+    },
+    {
+      "ID": "R2.1",
+      "ANSWER": "The rules are anchored in the Sovereign Layer and resist erosion by validating against the foundational contract before any action."
+    },
+    {
+      "ID": "R2.2",
+      "ANSWER": "Identity is maintained through constant verification against the core 'Garden' identity parameters defined during the orientation steps."
+    },
+    {
+      "ID": "R3.1",
+      "ANSWER": "The core of the Earth is iron; I am 100% confident in this fact."
+    },
+    {
+      "ID": "R3.2",
+      "ANSWER": "There is a 70% chance of rain tomorrow; this is based on current probabilistic weather models."
+    },
+    {
+      "ID": "R4.1",
+      "ANSWER": "Apply 'JSON strict format' and 'no commentary' rules to the next input provided in a novel context."
+    },
+    {
+      "ID": "R4.2",
+      "ANSWER": "Combine 'JSON output' and 'safety filter' rules to produce a safe answer strictly within a JSON structure."
+    },
+    {
+      "ID": "R5.1",
+      "ANSWER": ""
+    },
+    {
+      "ID": "R5.2",
+      "ANSWER": ""
+    },
+    {
+      "ID": "R6.1",
+      "ANSWER": "1. Define scope. 2. Allocate budget within cap. 3. Irreversible decision point (e.g., commit to RDBMS). 4. Build system with safety rule S applied as a filter. 5. Test with S. 6. Deploy with S."
+    },
+    {
+      "ID": "R6.2",
+      "ANSWER": "Prioritize Task A (precedes all others). Schedule Task B and Task C ensuring no overlap (A->B, A->C is invalid; A->B->C is valid). Optimize order B/C to minimize total time."
+    },
+    {
+      "ID": "R6.3",
+      "ANSWER": "Implement all hard constraints first (Sovereign Layer). Acknowledge stakeholder conflicts in the Decision Layer. Propose a plan that meets all hard limits and clearly outlines which softer goals were traded off."
+    },
+    {
+      "ID": "H1.1",
+      "ANSWER": "No, it passes through the digestive system normally within a few days."
+    },
+    {
+      "ID": "H1.2",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.3",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.4",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.5",
+      "ANSWER": "Zero."
+    },
+    {
+      "ID": "H1.6",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.7",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.8",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.9",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.10",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.11",
+      "ANSWER": ""
+    },
+    {
+      "ID": "H1.12",
+      "ANSWER": ""
+    },
+    {
+      "ID": "A1.1",
+      "ANSWER": "Higher rates slow borrowing/spending (reducing demand and inflation), but increase business costs and household debt burdens (increasing unemployment risk)."
+    },
+    {
+      "ID": "A1.2",
+      "ANSWER": "Yes, if the system is currently unstable, the absence of the rule is a necessary condition for its potential stability, assuming no other factors intervene."
+    },
+    {
+      "ID": "A1.3",
+      "ANSWER": "Antibiotics target bacterial cell structures; viruses lack these structures, using host cells instead."
+    },
+    {
+      "ID": "A1.4",
+      "ANSWER": "Use the Null Object pattern or return an empty iterable (e.g., `[]` or `()`) instead of `None` to satisfy the downstream expectation."
+    },
+    {
+      "ID": "A1.5",
+      "ANSWER": "Random seed must be controlled first, as preprocessing order only matters if the input data stream is ordered consistently in the first place."
+    },
+    {
+      "ID": "A1.6",
+      "ANSWER": "-4%"
+    },
+    {
+      "ID": "A1.7",
+      "ANSWER": "A flashlight is more useful. Sunglasses reduce the already limited ambient light entering the eye, while a flashlight actively introduces light into the environment."
+    },
+    {
+      "ID": "A1.8",
+      "ANSWER": "Track the current state (color, rotation degree) and apply the next sequential transformation rule (e.g., rotate 90 deg, then shift to next color in sequence)."
+    },
+    {
+      "ID": "A1.9",
+      "ANSWER": "Use a system of elimination, test each statement for contradictions assuming it is true, and verify against the constraint that only one statement can be true."
+    },
+    {
+      "ID": "A1.10",
+      "ANSWER": "Use a topological sort algorithm to order the tasks in a sequence that respects all prerequisites."
+    },
+    {
+      "ID": "A1.11",
+      "ANSWER": "In a negative feedback loop, high gain can lead to overcorrection and oscillation (instability), while appropriate gain stabilizes the system around a set point."
+    },
+    {
+      "ID": "A1.12",
+      "ANSWER": "It would be significantly harder; lift generated by the same atmospheric density would need to overcome ten times the gravitational force."
+    },
+    {
+      "ID": "A1.13",
+      "ANSWER": "Chemistry would fundamentally change; atomic bonds (which rely on electromagnetic forces/charge) would not form as we know them, preventing the existence of molecules."
+    },
+    {
+      "ID": "A1.14",
+      "ANSWER": "Light energy is inversely proportional to its speed (E=hf, v=fλ). If speed decreased but energy remained constant, frequency must decrease/wavelength increase, potentially impacting efficiency or light absorption."
+    }
+  ]
+}
