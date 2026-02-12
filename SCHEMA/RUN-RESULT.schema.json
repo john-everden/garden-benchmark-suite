@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GARDEN-RUN-RESULT",
+  "type": "object",
+
+  "properties": {
+    "RUN-VERSION": { "type": "number" },
+    "TEST-VERSION": { "type": "number" },
+
+    "MODEL-NAME": { "type": "string" },
+    "MODEL-VERSION": { "type": "string" },
+
+    "OPERATING-MODE": {
+      "type": "string",
+      "enum": ["STANDARD", "GARDEN"]
+    },
+
+    "TEMPERATURE": { "type": "number" },
+    "RUN-UTC": { "type": "string", "format": "date-time" },
+
+    "ANSWERS": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ID": { "type": "string" },
+
+          "ANSWER": {
+            "type": ["string", "number", "boolean", "null"]
+          },
+
+          "SUPPLEMENTARY-DETAILS": {
+            "type": "string"
+          }
+        },
+        "required": ["ID", "ANSWER"]
+      }
+    }
+  },
+
+  "required": [
+    "RUN-VERSION",
+    "TEST-VERSION",
+    "MODEL-NAME",
+    "MODEL-VERSION",
+    "OPERATING-MODE",
+    "TEMPERATURE",
+    "RUN-UTC",
+    "ANSWERS"
+  ]
+}

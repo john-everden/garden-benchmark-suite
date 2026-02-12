@@ -1,21 +1,5 @@
-# {{TEST-NAME}} ({{TEST-VERSION}})
+# Garden Benchmark Suite — Version {{VERSION}}
 
-{{TEST-DESCRIPTION}}
-
----
-
-## QUESTIONS 
-
-{{CATEGORIES}}
-
-### {{#CATEGORY}}
-
-{{QUESTIONS}}
-
-- {{#QUESTION}}
-
-{{/QUESTIONS}}
-{{/CATEGORIES}}
-
-
----
+{{#each CATEGORIES}}
+{{> category this}}
+{{/each}}

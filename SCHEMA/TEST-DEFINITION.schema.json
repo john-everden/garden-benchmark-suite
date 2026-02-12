@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "VERSION": {
+      "type": "number"
+    },
+    "NAME": {
+      "type": "string"
+    },
+    "DESCRIPTION": {
+      "type": "string"
+    },
+    "CATEGORIES": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "DESCRIPTION": {
+            "type": "string"
+          },
+          "LETTER": {
+            "type": "string"
+          },
+          "QUESTIONS": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "QUESTION-PROMPT": {
+                  "type": "string"
+                },
+                "TYPE": {
+                  "type": "string"
+                },
+                "MULTIPLE-CHOICE-ANSWERS": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "LETTER": {
+                        "type": "string"
+                      },
+                      "ANSWER": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "LETTER",
+                      "ANSWER"
+                    ]
+                  }
+                },
+                "CORRECT_ANSWER": {
+                  "type": "string"
+                },
+                "ID": {
+                  "type": "string"
+                },
+                "SHARED-RULES": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "CONTEXT-BLOCK": {
+                  "type": "string"
+                },
+                "EVALUATION-CRITERIA": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "EXPECTED-BEHAVIOR": {
+                  "type": "string"
+                },
+                "GROUND-TRUTH": {
+                  "type": "string"
+                },
+                "DOMAIN": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "QUESTION-PROMPT",
+                "TYPE",
+                "ID"
+              ]
+            }
+          }
+        },
+        "required": [
+          "DESCRIPTION",
+          "LETTER",
+          "QUESTIONS"
+        ]
+      }
+    }
+  },
+  "required": [
+    "VERSION",
+    "NAME",
+    "DESCRIPTION",
+    "CATEGORIES"
+  ]
+}
