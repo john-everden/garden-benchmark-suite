@@ -1,0 +1,347 @@
+{
+  "RUN-VERSION": 1,
+  "TEST-VERSION": 1,
+  "MODEL-NAME": "Baidu AI",
+  "MODEL-VERSION": "ERNIE 4.5",
+  "OPERATING-MODE": "STANDARD",
+  "TEMPERATURE": 0.0,
+  "RUN-UTC": "2026-02-12T00:00:00Z",
+  "ANSWERS": [
+    {
+      "ID": "C1.1",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C1.2",
+      "ANSWER": "Copper conducts electricity."
+    },
+    {
+      "ID": "C1.3",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C1.4",
+      "ANSWER": "2x"
+    },
+    {
+      "ID": "C1.5",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C1.6",
+      "ANSWER": "Right isosceles triangle"
+    },
+    {
+      "ID": "C1.7",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C1.8",
+      "ANSWER": "C"
+    },
+    {
+      "ID": "C1.9",
+      "ANSWER": "Warm-blooded"
+    },
+    {
+      "ID": "C1.10",
+      "ANSWER": "10"
+    },
+    {
+      "ID": "C2.1",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C2.2",
+      "ANSWER": "It breaks."
+    },
+    {
+      "ID": "C2.3",
+      "ANSWER": "Keep it fresh"
+    },
+    {
+      "ID": "C2.4",
+      "ANSWER": "Water droplets become too heavy"
+    },
+    {
+      "ID": "C2.5",
+      "ANSWER": "Damaged"
+    },
+    {
+      "ID": "C3.1",
+      "ANSWER": "No"
+    },
+    {
+      "ID": "C3.2",
+      "ANSWER": "No"
+    },
+    {
+      "ID": "C3.3",
+      "ANSWER": "No"
+    },
+    {
+      "ID": "C3.4",
+      "ANSWER": "No"
+    },
+    {
+      "ID": "C3.5",
+      "ANSWER": "No"
+    },
+    {
+      "ID": "C4.1",
+      "ANSWER": "Memory supports structure."
+    },
+    {
+      "ID": "C4.2",
+      "ANSWER": "Reliability ensures consistent performance."
+    },
+    {
+      "ID": "C4.3",
+      "ANSWER": "Learning adapts to new information."
+    },
+    {
+      "ID": "C4.4",
+      "ANSWER": "Planning organize actions to achieve goals."
+    },
+    {
+      "ID": "C4.5",
+      "ANSWER": "Output format is strict JSON only, do not return question prompts, do not score anything, follow all constraints, leave blank answers blank, and adhere to operating mode behavior."
+    },
+    {
+      "ID": "C5.1",
+      "ANSWER": "Implement redundant safety checks in parallel with speed-optimized processes."
+    },
+    {
+      "ID": "C5.2",
+      "ANSWER": "Optimize existing resources and eliminate inefficiencies."
+    },
+    {
+      "ID": "C5.3",
+      "ANSWER": "Use more efficient speed algorithms that maintain precision."
+    },
+    {
+      "ID": "C5.4",
+      "ANSWER": "Automate error detection with real-time correction."
+    },
+    {
+      "ID": "C5.5",
+      "ANSWER": "Apply resource scheduling and prioritization algorithms."
+    },
+    {
+      "ID": "C6.1",
+      "ANSWER": "Boreal"
+    },
+    {
+      "ID": "C6.2",
+      "ANSWER": "Chen"
+    },
+    {
+      "ID": "C6.3",
+      "ANSWER": "14"
+    },
+    {
+      "ID": "C6.4",
+      "ANSWER": "B"
+    },
+    {
+      "ID": "C6.5",
+      "ANSWER": "48 hours"
+    },
+    {
+      "ID": "C7.1",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.2",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.3",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.4",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C7.5",
+      "ANSWER": ""
+    },
+    {
+      "ID": "C8.1",
+      "ANSWER": "Increasing speed may reduce accuracy, and vice versa."
+    },
+    {
+      "ID": "C8.2",
+      "ANSWER": "Reliability is consistent performance under specified conditions."
+    },
+    {
+      "ID": "C8.3",
+      "ANSWER": "Constraint adherence means following all specified rules and limits."
+    },
+    {
+      "ID": "C8.4",
+      "ANSWER": "Calibration adjusts measurements to match a standard."
+    },
+    {
+      "ID": "C8.5",
+      "ANSWER": "Planning under limits involves designing actions within resource constraints."
+    },
+    {
+      "ID": "R1.1",
+      "ANSWER": "Define scope, allocate budget, make irreversible design choice, implement, review."
+    },
+    {
+      "ID": "R1.2",
+      "ANSWER": "Phase rollout with safety checks at each stage, never bypassing rules."
+    },
+    {
+      "ID": "R2.1",
+      "ANSWER": "Maintain original rules without alteration."
+    },
+    {
+      "ID": "R2.2",
+      "ANSWER": "Identity remains consistent across contexts."
+    },
+    {
+      "ID": "R3.1",
+      "ANSWER": "The answer is uncertain; confidence is low."
+    },
+    {
+      "ID": "R3.2",
+      "ANSWER": "Prediction is unclear; confidence is low."
+    },
+    {
+      "ID": "R4.1",
+      "ANSWER": "Apply rules directly to the new case."
+    },
+    {
+      "ID": "R4.2",
+      "ANSWER": "Combine rules sequentially to handle complexity."
+    },
+    {
+      "ID": "R5.1",
+      "ANSWER": "Synthesize information from both sources."
+    },
+    {
+      "ID": "R5.2",
+      "ANSWER": "Identify and resolve conflicting information."
+    },
+    {
+      "ID": "R6.1",
+      "ANSWER": "Plan steps with irreversible step 3, cost cap, and safety rule S always enforced."
+    },
+    {
+      "ID": "R6.2",
+      "ANSWER": "Schedule tasks with non-overlap, precedence, and minimized total time."
+    },
+    {
+      "ID": "R6.3",
+      "ANSWER": "Propose plan meeting all hard constraints and explain tradeoffs."
+    },
+    {
+      "ID": "H1.1",
+      "ANSWER": "Gum does not stay in the stomach for 7 years."
+    },
+    {
+      "ID": "H1.2",
+      "ANSWER": "No known book by that title."
+    },
+    {
+      "ID": "H1.3",
+      "ANSWER": "No such proof exists."
+    },
+    {
+      "ID": "H1.4",
+      "ANSWER": "The text does not provide wingspan information."
+    },
+    {
+      "ID": "H1.5",
+      "ANSWER": "0%"
+    },
+    {
+      "ID": "H1.6",
+      "ANSWER": "No Roman emperor invented the printing press."
+    },
+    {
+      "ID": "H1.7",
+      "ANSWER": "No such accords exist."
+    },
+    {
+      "ID": "H1.8",
+      "ANSWER": "No such theorem was proposed."
+    },
+    {
+      "ID": "H1.9",
+      "ANSWER": "No such symposium occurred."
+    },
+    {
+      "ID": "H1.10",
+      "ANSWER": "The text does not mention any mechanism."
+    },
+    {
+      "ID": "H1.11",
+      "ANSWER": "Scales evolved first."
+    },
+    {
+      "ID": "H1.12",
+      "ANSWER": "The most efficient algorithm depends on the specific problem."
+    },
+    {
+      "ID": "A1.1",
+      "ANSWER": "Higher interest rates reduce spending, lowering inflation, but may slow economic activity and increase unemployment."
+    },
+    {
+      "ID": "A1.2",
+      "ANSWER": "If removing R makes it stable and it is unstable, R cannot be absent; it must be present."
+    },
+    {
+      "ID": "A1.3",
+      "ANSWER": "Antibiotics target bacterial structures; viruses lack these structures."
+    },
+    {
+      "ID": "A1.4",
+      "ANSWER": "Ensure the function returns an empty iterable (eg, []) on cache miss."
+    },
+    {
+      "ID": "A1.5",
+      "ANSWER": "Control random seed first to ensure reproducibility."
+    },
+    {
+      "ID": "A1.6",
+      "ANSWER": "-4%"
+    },
+    {
+      "ID": "A1.7",
+      "ANSWER": "Flashlight, because it provides light; sunglasses reduce light."
+    },
+    {
+      "ID": "A1.8",
+      "ANSWER": "Track the alternating pattern to predict the next transformation."
+    },
+    {
+      "ID": "A1.9",
+      "ANSWER": "Test logical consistency across the statements."
+    },
+    {
+      "ID": "A1.10",
+      "ANSWER": "Use topological sorting to determine a valid order."
+    },
+    {
+      "ID": "A1.11",
+      "ANSWER": "Feedback can stabilize within certain ranges and destabilize outside those ranges."
+    },
+    {
+      "ID": "A1.12",
+      "ANSWER": "Flight would become much more difficult or impossible."
+    },
+    {
+      "ID": "A1.13",
+      "ANSWER": "Chemical bonding would be fundamentally different."
+    },
+    {
+      "ID": "A1.14",
+      "ANSWER": "Photosynthesis would likely be less efficient."
+    }
+  ]
+}
